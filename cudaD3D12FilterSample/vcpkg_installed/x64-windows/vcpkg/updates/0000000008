@@ -1,0 +1,7 @@
+Package: hdf5
+Feature: szip
+Depends: szip
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build with szip
+Status: purge ok half-installed
