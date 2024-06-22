@@ -1,7 +1,0 @@
-Package: libxml2
-Feature: iconv
-Depends: libiconv
-Architecture: x64-windows
-Multi-Arch: same
-Description: Add ICONV support
-Status: purge ok not-installed

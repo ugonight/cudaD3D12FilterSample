@@ -1,9 +1,0 @@
-Package: libarchive
-Version: 3.7.2
-Depends: vcpkg-cmake, zlib
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 30b930cff494d32be30133082028ccd202f45e83ca3eac808f49521b49de5d97
-Description: Library for reading and writing streaming archives
-Default-Features: bzip2, crypto, libxml2, lz4, lzma, zstd
-Status: purge ok not-installed

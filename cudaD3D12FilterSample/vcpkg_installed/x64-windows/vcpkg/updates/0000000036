@@ -1,7 +1,0 @@
-Package: libarchive
-Feature: libxml2
-Depends: libxml2
-Architecture: x64-windows
-Multi-Arch: same
-Description: Libxml2 support
-Status: purge ok half-installed

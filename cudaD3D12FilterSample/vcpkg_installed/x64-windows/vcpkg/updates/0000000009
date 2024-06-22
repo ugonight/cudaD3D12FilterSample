@@ -1,9 +1,0 @@
-Package: hdf5
-Version: 1.14.2
-Depends: vcpkg-cmake, vcpkg-cmake-config
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 8f924ab0e606214eaf920807a15823ee8e38cca80bd3d98c5990df9f610a92dc
-Description: HDF5 is a data model, library, and file format for storing and managing data
-Default-Features: szip, zlib
-Status: purge ok not-installed

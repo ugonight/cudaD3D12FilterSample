@@ -1,7 +1,0 @@
-Package: hdf5
-Feature: zlib
-Depends: zlib
-Architecture: x64-windows
-Multi-Arch: same
-Description: Build with zlib
-Status: purge ok not-installed
