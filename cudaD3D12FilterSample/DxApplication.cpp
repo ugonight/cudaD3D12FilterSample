@@ -456,7 +456,6 @@ void DxApplication::OnRender()
 
 	// Present the frame.
 	//ThrowIfFailed(m_swapChain->Present(1, 0));
-	m_frameIndex = ++m_frameIndex % FrameCount;
 
 	// Schedule a Signal command in the queue.
 	const UINT64 currentFenceValue = m_fenceValues[m_frameIndex];
@@ -555,6 +554,7 @@ void DxApplication::MoveToNextFrame()
 
 	// Update the frame index.
 	//m_frameIndex = m_swapChain->GetCurrentBackBufferIndex();
+	m_frameIndex = ++m_frameIndex % FrameCount;
 
 	// If the next frame is not ready to be rendered yet, wait until it is ready.
 	if (m_fence->GetCompletedValue() < m_fenceValues[m_frameIndex]) {
